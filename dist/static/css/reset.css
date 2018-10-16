@@ -1,0 +1,83 @@
+/*bba
+公共样式
+*/
+
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{list-style: none;}
+
+img{display: block;}
+
+a{
+    text-decoration: none;
+    color: rgba(255,255,255,.9);
+}
+
+i,address{
+    font-style:normal;
+}
+
+*{
+    font-weight: normal;
+}
+
+/* html{
+    font-size: 62.5%; 10/16=62.5%
+} */
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+    color: rgba(255,255,255,.9);
+    /* font-weight: 600 !important; */
+}
+
+[class^="icon-"],[class*=" icon-"]{
+    background: url("../images/icon.png") no-repeat;
+}
+
+input,textarea,button {
+    border: none;
+    resize: none;
+    outline: none; /*清除选中框的效果*/
+    -webkit-appearance: none;/*清楚浏览器默认的样式*/
+}
+
+/*清除浮动*/
+/*
+.clearfix::before,
+.clearfix::after{
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}*/
+
+
+
+
+
+/* // 字体使用  样例 路径可能不对 自查
+// @font-face{
+//     font-family:iconfont;
+//     src: url(../static/fonts/iconfont.eot) format('embedded-opentype'),
+//          url(../static/fonts/iconfont.svg) format('svg'),
+//          url(../static/fonts/iconfont.ttf) format('truetype'),
+//          url(../static/fonts/iconfont.woff) format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// .icon1{
+//     font-size: 30px;
+//     font-family: iconfont !important;
+// } */
+
+
+
+
